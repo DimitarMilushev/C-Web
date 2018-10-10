@@ -1,0 +1,10 @@
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\obj\Debug\netcoreapp2.1\Request Parser.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\obj\Debug\netcoreapp2.1\Request Parser.AssemblyInfoInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\obj\Debug\netcoreapp2.1\Request Parser.AssemblyInfo.cs
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\bin\Debug\netcoreapp2.1\Request Parser.deps.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\bin\Debug\netcoreapp2.1\Request Parser.runtimeconfig.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\bin\Debug\netcoreapp2.1\Request Parser.runtimeconfig.dev.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\bin\Debug\netcoreapp2.1\Request Parser.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\bin\Debug\netcoreapp2.1\Request Parser.pdb
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\obj\Debug\netcoreapp2.1\Request Parser.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\Request Parser\obj\Debug\netcoreapp2.1\Request Parser.pdb

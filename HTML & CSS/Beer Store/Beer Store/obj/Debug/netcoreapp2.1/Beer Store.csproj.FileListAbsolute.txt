@@ -1,0 +1,14 @@
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\bin\Debug\netcoreapp2.1\Beer Store.deps.json
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\bin\Debug\netcoreapp2.1\Beer Store.runtimeconfig.json
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\bin\Debug\netcoreapp2.1\Beer Store.runtimeconfig.dev.json
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\bin\Debug\netcoreapp2.1\Beer Store.dll
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\bin\Debug\netcoreapp2.1\Beer Store.pdb
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.csprojAssemblyReference.cache
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.RazorAssemblyInfo.cache
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.RazorAssemblyInfo.cs
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.AssemblyInfoInputs.cache
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.AssemblyInfo.cs
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.RazorTargetAssemblyInfo.cache
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.dll
+D:\Repos\C# Web\HTML & CSS\Beer Store\Beer Store\obj\Debug\netcoreapp2.1\Beer Store.pdb

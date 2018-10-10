@@ -1,0 +1,11 @@
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\bin\Debug\netcoreapp2.1\Validate URL.deps.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\bin\Debug\netcoreapp2.1\Validate URL.runtimeconfig.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\bin\Debug\netcoreapp2.1\Validate URL.runtimeconfig.dev.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\bin\Debug\netcoreapp2.1\Validate URL.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\bin\Debug\netcoreapp2.1\Validate URL.pdb
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.csprojAssemblyReference.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.AssemblyInfoInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.AssemblyInfo.cs
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\Validate URL\obj\Debug\netcoreapp2.1\Validate URL.pdb

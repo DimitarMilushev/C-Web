@@ -1,0 +1,11 @@
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\bin\Debug\netcoreapp2.1\URL Decode.deps.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\bin\Debug\netcoreapp2.1\URL Decode.runtimeconfig.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\bin\Debug\netcoreapp2.1\URL Decode.runtimeconfig.dev.json
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\bin\Debug\netcoreapp2.1\URL Decode.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\bin\Debug\netcoreapp2.1\URL Decode.pdb
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.csprojAssemblyReference.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.AssemblyInfoInputs.cache
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.AssemblyInfo.cs
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.dll
+D:\Repos\C# Web\HTTP Protocol_Exercises\URL Decode\obj\Debug\netcoreapp2.1\URL Decode.pdb

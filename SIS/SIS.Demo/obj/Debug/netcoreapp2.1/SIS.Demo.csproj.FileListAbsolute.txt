@@ -1,0 +1,16 @@
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.AssemblyInfo.cs
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.Demo.deps.json
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.Demo.runtimeconfig.json
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.Demo.runtimeconfig.dev.json
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.Demo.dll
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.Demo.pdb
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\SIS\SIS.Demo\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.csproj.CopyComplete
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.dll
+D:\Repos\C# Web\SIS\SIS.Demo\obj\Debug\netcoreapp2.1\SIS.Demo.pdb

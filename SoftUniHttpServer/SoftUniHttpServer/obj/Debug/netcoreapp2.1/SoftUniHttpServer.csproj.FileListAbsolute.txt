@@ -1,0 +1,12 @@
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.deps.json
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.runtimeconfig.json
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.runtimeconfig.dev.json
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.dll
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.pdb
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.csprojAssemblyReference.cache
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.AssemblyInfo.cs
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.dll
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.pdb
+D:\Repos\C# Web\SoftUniHttpServer\SoftUniHttpServer\bin\Debug\netcoreapp2.1\index.html
