@@ -1,0 +1,11 @@
+D:\Repos\C# Web\SIS\CakeStoreWebApp\bin\Debug\netcoreapp2.1\CakeStoreWebApp.deps.json
+D:\Repos\C# Web\SIS\CakeStoreWebApp\bin\Debug\netcoreapp2.1\CakeStoreWebApp.runtimeconfig.json
+D:\Repos\C# Web\SIS\CakeStoreWebApp\bin\Debug\netcoreapp2.1\CakeStoreWebApp.runtimeconfig.dev.json
+D:\Repos\C# Web\SIS\CakeStoreWebApp\bin\Debug\netcoreapp2.1\CakeStoreWebApp.dll
+D:\Repos\C# Web\SIS\CakeStoreWebApp\bin\Debug\netcoreapp2.1\CakeStoreWebApp.pdb
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.AssemblyInfo.cs
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.dll
+D:\Repos\C# Web\SIS\CakeStoreWebApp\obj\Debug\netcoreapp2.1\CakeStoreWebApp.pdb

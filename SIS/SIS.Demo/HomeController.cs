@@ -1,4 +1,5 @@
 ﻿using SIS.HTTP.Enums;
+using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
 using SIS.WebServer.Results;
 using System;
@@ -9,7 +10,7 @@ namespace SIS.Demo
 {
     public class HomeController
     {
-        public IHttpResponse Index()
+        public IHttpResponse Index(IHttpRequest request)
         { 
             string content = "<h1>Hello World!</h1>";
 
