@@ -11,7 +11,7 @@ namespace SIS.HTTP.Exceptions
 
         public const HttpStatusCode statusCode = HttpStatusCode.InternalServerError;
 
-        public InternalServerErrorException()
+        public InternalServerErrorException(string message)
             :base(defaultMessage)
         {
 

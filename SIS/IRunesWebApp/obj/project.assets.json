@@ -1321,6 +1321,16 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      },
       "SIS.Demo/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -4889,6 +4899,11 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    },
     "SIS.Demo/1.0.0": {
       "type": "project",
       "path": "../SIS.Demo/SIS.Demo.csproj",
@@ -4914,7 +4929,8 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "SIS.Demo >= 1.0.0",
       "SIS.HTTP >= 1.0.0",
-      "SIS.WebServer >= 1.0.0"
+      "SIS.WebServer >= 1.0.0",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4947,6 +4963,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\Repos\\C# Web\\SIS\\Services\\Services.csproj": {
+              "projectPath": "D:\\Repos\\C# Web\\SIS\\Services\\Services.csproj"
+            },
             "D:\\Repos\\C# Web\\SIS\\SIS.Demo\\SIS.Demo.csproj": {
               "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.Demo\\SIS.Demo.csproj"
             },

@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.Demo", "SIS.Demo\SIS.De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SIS.Apps", "SIS.Apps", "{788AD50A-CC49-44BA-A093-1FB2FE765AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRunesWebApp", "IRunesWebApp\IRunesWebApp.csproj", "{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRunesWebApp", "IRunesWebApp\IRunesWebApp.csproj", "{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeStoreWebApp", "CakeStoreWebApp\CakeStoreWebApp.csproj", "{A93D1F68-BEA0-4F27-9870-5424A9527ED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeStoreWebApp", "CakeStoreWebApp\CakeStoreWebApp.csproj", "{A93D1F68-BEA0-4F27-9870-5424A9527ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{A93D1F68-BEA0-4F27-9870-5424A9527ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A93D1F68-BEA0-4F27-9870-5424A9527ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A93D1F68-BEA0-4F27-9870-5424A9527ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

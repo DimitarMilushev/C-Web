@@ -16,5 +16,11 @@ namespace SIS.HTTP.Exceptions
             :base(defaultMessage)
         {
         }
+
+        public BadRequestException(string newMessage)
+            :base(newMessage)
+        {
+
+        }
     }
 }

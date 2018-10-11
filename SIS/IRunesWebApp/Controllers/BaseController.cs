@@ -1,4 +1,8 @@
-﻿using SIS.HTTP.Exceptions;
+﻿using IRunesWebApp.Data;
+using Services;
+using SIS.HTTP.Cookies;
+using SIS.HTTP.Exceptions;
+using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
 using SIS.WebServer.Results;
 using System;
@@ -20,15 +24,43 @@ namespace IRunesWebApp.Controllers
         private const string viewsFolder = "Views";
 
         private const string htmlFileExtension = ".html";
+           
+        private readonly UserCookieService userCookieService;
+
+        protected IRunesContext Context { get; set; }
+
+        public BaseController()
+        {
+            Context = new IRunesContext();
+            userCookieService = new UserCookieService();
+
+        }
 
         private string GetCurrentController =>
-            this.GetType().Name.Replace(controllerDef, string.Empty);
+         this.GetType().Name.Replace(controllerDef, string.Empty);
+
+        public void SignInUser(string username, IHttpRequest request)
+        {
+            request.Session.AddParameter("username", username);
+            var userCookieValue = this.userCookieService.GetUserCookie(username);
+
+            request.Cookies.Add(new HttpCookie("IRunes_auth", userCookieValue));
+        }
 
         protected IHttpResponse View([CallerMemberName] string viewName = "")
+
         {
             StringBuilder filePath = new StringBuilder();
 
+            string subFolder = String.Empty;
+
+            if (viewName != "Index")
+                subFolder = "Users";
+            else
+                subFolder = "Home";
+
             filePath.Append(relativePath).Append(viewsFolder).Append(directorySeparator)
+                .Append(subFolder).Append(directorySeparator)
                 .Append(viewName).Append(htmlFileExtension);
 
             if (!File.Exists(filePath.ToString()))

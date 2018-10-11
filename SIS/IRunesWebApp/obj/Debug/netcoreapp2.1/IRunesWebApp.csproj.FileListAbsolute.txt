@@ -16,4 +16,8 @@ D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.Demo.pdb
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.csproj.CopyComplete
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.pdb
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Index.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Home\Index.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Users\Login.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Users\Register.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Services.dll
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Services.pdb
