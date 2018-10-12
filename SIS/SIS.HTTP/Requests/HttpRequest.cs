@@ -42,7 +42,6 @@ namespace SIS.HTTP.Requests
             this.ParseCookies();
 
             this.ParseRequestParameters(splitRequestContent[splitRequestContent.Length - 1]);
-
         }
 
         private void ParseCookies()
@@ -162,7 +161,8 @@ namespace SIS.HTTP.Requests
 
         private bool IsValidRequestLine(string[] requestLine)
         {
-            if (requestLine.Length == 3 && requestLine[2] == "HTTP/1.1")
+            if (requestLine.Length == 3 &&
+                requestLine[2].ToLower() != GlobalConstants.HttpOneProtocolFragment)
                 return true;
 
             return false;

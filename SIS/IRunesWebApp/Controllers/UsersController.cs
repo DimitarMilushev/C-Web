@@ -1,15 +1,11 @@
 ﻿using IRunesWebApp.Models;
 using Services;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
 using SIS.HTTP.Exceptions;
 using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
 using SIS.WebServer.Results;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace IRunesWebApp.Controllers
 {
@@ -23,14 +19,12 @@ namespace IRunesWebApp.Controllers
         }
         public IHttpResponse Login(IHttpRequest request) => this.View();
 
-        public IHttpResponse LoginPost(IHttpRequest request)
+        public IHttpResponse PostLogin(IHttpRequest request)
         {
             var username = request.FormData["username"].ToString();
             var password = request.FormData["password"].ToString();
 
             var hashedPassword = this.hashService.StrongHash(password);
-
-            this.SignInUser(username, request);
 
             var user = this.Context.Users.FirstOrDefault(x => x.Username == username &&
                                                  x.HashedPassword == hashedPassword);
@@ -38,19 +32,21 @@ namespace IRunesWebApp.Controllers
             if (user == null)
                 return new RedirectResult("/login");
 
-            return new RedirectResult("home/index");
+            var response = new RedirectResult("/index");
+            this.SignInUser(username, response, request);
+            return response;
         }
 
         public IHttpResponse Register(IHttpRequest request) => this.View();
 
-        public IHttpResponse RegisterPost(IHttpRequest request)
+        public IHttpResponse PostRegister(IHttpRequest request)
         {
             var username = request.FormData["username"].ToString().Trim();
             var password = request.FormData["password"].ToString();
             var confirmPassword = request.FormData["confirmPassword"].ToString();
             var email = request.FormData["email"].ToString();
 
-            if (string.IsNullOrWhiteSpace(username) || username.Length < 4)
+            if (string.IsNullOrWhiteSpace(username))
             {
                 throw new BadRequestException("Please provide valid username with length of 4 or more characters.");
             }
@@ -60,18 +56,20 @@ namespace IRunesWebApp.Controllers
                 throw new BadRequestException("User with the same name already exists.");
             }
 
-            if (string.IsNullOrWhiteSpace(password) || password.Length < 6)
-            {
-                throw new BadRequestException("Please provide password of length 6 or more.");
-            }
+            //if (string.IsNullOrWhiteSpace(password) || password.Length < 6)
+            //{
+            //    throw new BadRequestException("Please provide password of length 6 or more.");
+            //}
+
+            //if (password != confirmPassword)
+            //{
+            //    throw new BadRequestException("Passwords do not match.");
+            //}
 
             if (password != confirmPassword)
-            {
-                throw new BadRequestException("Passwords do not match.");
-            }
-
+                throw new BadRequestException("Passwords do not match");
             // Hash password
-            var hashedPassword = this.hashService.Hash(password);
+            var hashedPassword = this.hashService.StrongHash(password);
 
             // Create user
             var user = new User
@@ -93,11 +91,12 @@ namespace IRunesWebApp.Controllers
                 throw new InternalServerErrorException(e.Message);
             }
 
+            var response = new RedirectResult("/");
             // TODO: Login
-            this.SignInUser(username, request);
+            this.SignInUser(username, response, request);
 
             // Redirect
-            return new RedirectResult("/");
+            return response;
         }
     }
 }

@@ -15,7 +15,7 @@ namespace IRunesWebApp.Controllers
 {
     public abstract class BaseController
     {
-        private const string relativePath = @"D:\Repos\C# Web\SIS\IRunesWebApp\";
+        private const string relativePath = @"..\..\..\";
 
         private const string controllerDef = "Controller";
 
@@ -39,28 +39,24 @@ namespace IRunesWebApp.Controllers
         private string GetCurrentController =>
          this.GetType().Name.Replace(controllerDef, string.Empty);
 
-        public void SignInUser(string username, IHttpRequest request)
+        public bool IsAuthenticated(IHttpRequest request)
+        {
+            return request.Session.ContainsParameter("username");
+        }
+
+        public void SignInUser(string username, IHttpResponse response, IHttpRequest request)
         {
             request.Session.AddParameter("username", username);
             var userCookieValue = this.userCookieService.GetUserCookie(username);
 
-            request.Cookies.Add(new HttpCookie("IRunes_auth", userCookieValue));
+            response.Cookies.Add(new HttpCookie("IRunes_auth", userCookieValue));
         }
 
         protected IHttpResponse View([CallerMemberName] string viewName = "")
-
         {
             StringBuilder filePath = new StringBuilder();
 
-            string subFolder = String.Empty;
-
-            if (viewName != "Index")
-                subFolder = "Users";
-            else
-                subFolder = "Home";
-
             filePath.Append(relativePath).Append(viewsFolder).Append(directorySeparator)
-                .Append(subFolder).Append(directorySeparator)
                 .Append(viewName).Append(htmlFileExtension);
 
             if (!File.Exists(filePath.ToString()))

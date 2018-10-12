@@ -7,6 +7,12 @@ namespace IRunesWebApp.Controllers
 {
     public class HomeController : BaseController
     {
-        public IHttpResponse Index(IHttpRequest request) => this.View();
+        public IHttpResponse Index(IHttpRequest request)
+        {
+            if (this.IsAuthenticated(request))
+                return this.View("indexLoggedIn");
+
+            return this.View();
+        }
     }
 }
