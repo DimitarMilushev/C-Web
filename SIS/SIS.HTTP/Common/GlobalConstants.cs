@@ -15,5 +15,13 @@ namespace SIS.HTTP.Common
         public const string HtmlText = "text/html";
 
         public const string PlainText = "text/plain";
+
+        public const string HttpNewLine = "\r\n";
+
+        public static string[] ResourceExtensions = { ".js", ".css" };
+
+        public const string relativePath = @"..\..\..\";
+
+        public const string ControllerSufix = "Controller";
     }
 }

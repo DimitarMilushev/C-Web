@@ -1,17 +1,12 @@
-﻿using SIS.HTTP.Enums;
-using SIS.HTTP.Requests;
-using SIS.HTTP.Responses;
-using SIS.WebServer.Results;
+﻿using SIS.Framework.ActionResults.Base;
+using SIS.Framework.Controllers.Base;
 
 namespace IRunesWebApp.Controllers
 {
-    public class HomeController : BaseController
+    public class HomeController : Controller
     {
-        public IHttpResponse Index(IHttpRequest request)
+        public IActionResult Index()
         {
-            if (this.IsAuthenticated(request))
-                return this.View("indexLoggedIn");
-
             return this.View();
         }
     }

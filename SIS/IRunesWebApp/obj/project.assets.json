@@ -1331,19 +1331,17 @@
           "bin/placeholder/Services.dll": {}
         }
       },
-      "SIS.Demo/1.0.0": {
+      "SIS.Framework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0",
-          "SIS.HTTP": "1.0.0",
           "SIS.WebServer": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SIS.Demo.dll": {}
+          "bin/placeholder/SIS.Framework.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SIS.Demo.dll": {}
+          "bin/placeholder/SIS.Framework.dll": {}
         }
       },
       "SIS.HTTP/1.0.0": {
@@ -4904,10 +4902,10 @@
       "path": "../Services/Services.csproj",
       "msbuildProject": "../Services/Services.csproj"
     },
-    "SIS.Demo/1.0.0": {
+    "SIS.Framework/1.0.0": {
       "type": "project",
-      "path": "../SIS.Demo/SIS.Demo.csproj",
-      "msbuildProject": "../SIS.Demo/SIS.Demo.csproj"
+      "path": "../SIS.Framework/SIS.Framework.csproj",
+      "msbuildProject": "../SIS.Framework/SIS.Framework.csproj"
     },
     "SIS.HTTP/1.0.0": {
       "type": "project",
@@ -4927,7 +4925,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.4",
       "Microsoft.NETCore.App >= 2.1.0",
-      "SIS.Demo >= 1.0.0",
+      "SIS.Framework >= 1.0.0",
       "SIS.HTTP >= 1.0.0",
       "SIS.WebServer >= 1.0.0",
       "Services >= 1.0.0"
@@ -4966,8 +4964,8 @@
             "D:\\Repos\\C# Web\\SIS\\Services\\Services.csproj": {
               "projectPath": "D:\\Repos\\C# Web\\SIS\\Services\\Services.csproj"
             },
-            "D:\\Repos\\C# Web\\SIS\\SIS.Demo\\SIS.Demo.csproj": {
-              "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.Demo\\SIS.Demo.csproj"
+            "D:\\Repos\\C# Web\\SIS\\SIS.Framework\\SIS.Framework.csproj": {
+              "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.Framework\\SIS.Framework.csproj"
             },
             "D:\\Repos\\C# Web\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
               "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"

@@ -1,4 +1,5 @@
-﻿using SIS.WebServer.Routing;
+﻿using SIS.WebServer.Api;
+using SIS.WebServer.Routing;
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -16,17 +17,17 @@ namespace SIS.WebServer
 
         private readonly TcpListener tcpListener;
 
-        private readonly ServerRoutingTable serverRoutingTable;
+        private readonly IHttpHandler handler;
 
         private bool isRunning;
 
-        public Server(int port, ServerRoutingTable serverRoutingTable)
+        public Server(int port, IHttpHandler handler)
         {
             this.port = port;
 
             this.tcpListener = new TcpListener(IPAddress.Parse(LocalHostIpAddress), port);
 
-            this.serverRoutingTable = serverRoutingTable;
+            this.handler = handler;
         }
 
         public void Run()
@@ -41,13 +42,13 @@ namespace SIS.WebServer
 
                 var client = tcpListener.AcceptSocketAsync().GetAwaiter().GetResult();
 
-                Task.Run(() => Listen(client));
+                 Task.Run(() => Listen(client));
             }
         }
 
         public async void Listen(Socket client)
         {
-            var connectionHandler = new ConnectionHandler(client, this.serverRoutingTable);
+            var connectionHandler = new ConnectionHandler(client, this.handler);
             await connectionHandler.ProcessRequestAsync();
         }
     }

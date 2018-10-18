@@ -1,5 +1,6 @@
 ﻿using IRunesWebApp.Models;
 using Services;
+using SIS.HTTP.Enums;
 using SIS.HTTP.Exceptions;
 using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
@@ -17,14 +18,17 @@ namespace IRunesWebApp.Controllers
         {
             hashService = new HashService();
         }
-        public IHttpResponse Login(IHttpRequest request) => this.View();
+        public IHttpResponse Login(LoginViewModel request)
+        {
+            this.ViewMethod();
+        }
 
         public IHttpResponse PostLogin(IHttpRequest request)
         {
             var username = request.FormData["username"].ToString();
             var password = request.FormData["password"].ToString();
 
-            var hashedPassword = this.hashService.StrongHash(password);
+            var hashedPassword = this.hashService.Hash(password);
 
             var user = this.Context.Users.FirstOrDefault(x => x.Username == username &&
                                                  x.HashedPassword == hashedPassword);
@@ -32,7 +36,7 @@ namespace IRunesWebApp.Controllers
             if (user == null)
                 return new RedirectResult("/login");
 
-            var response = new RedirectResult("/index");
+            var response = new RedirectResult("/indexLoggedIn");
             this.SignInUser(username, response, request);
             return response;
         }
@@ -53,7 +57,7 @@ namespace IRunesWebApp.Controllers
 
             if (this.Context.Users.Any(x => x.Username == username))
             {
-                throw new BadRequestException("User with the same name already exists.");
+                return new BadRequestResult("User with the same name already exists.", HttpResponseStatusCode.Found);
             }
 
             //if (string.IsNullOrWhiteSpace(password) || password.Length < 6)
@@ -61,15 +65,10 @@ namespace IRunesWebApp.Controllers
             //    throw new BadRequestException("Please provide password of length 6 or more.");
             //}
 
-            //if (password != confirmPassword)
-            //{
-            //    throw new BadRequestException("Passwords do not match.");
-            //}
-
             if (password != confirmPassword)
-                throw new BadRequestException("Passwords do not match");
+                return new BadRequestResult("Passwords do not match", SIS.HTTP.Enums.HttpResponseStatusCode.SeeOther);
             // Hash password
-            var hashedPassword = this.hashService.StrongHash(password);
+            var hashedPassword = this.hashService.Hash(password);
 
             // Create user
             var user = new User
@@ -88,7 +87,7 @@ namespace IRunesWebApp.Controllers
             catch (Exception e)
             {
                 // TODO: Log error
-                throw new InternalServerErrorException(e.Message);
+                return new BadRequestResult(e.Message, HttpResponseStatusCode.InternalServerError);
             }
 
             var response = new RedirectResult("/");

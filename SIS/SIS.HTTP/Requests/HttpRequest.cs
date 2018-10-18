@@ -49,7 +49,7 @@ namespace SIS.HTTP.Requests
             if (!this.Headers.ContainsHeader("Cookie"))
                 return;
 
-            int currentIndex = 0;
+            //int currentIndex = 0;
 
             string cookiesString = Headers.GetHeader("Cookie").Value;
 

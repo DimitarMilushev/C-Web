@@ -711,7 +711,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "SIS.HTTP >= 1.0.0",
       "SIS.WebServer >= 1.0.0"
     ]
   },
@@ -745,9 +744,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Repos\\C# Web\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
-            },
             "D:\\Repos\\C# Web\\SIS\\SIS.WebServer\\SIS.WebServer.csproj": {
               "projectPath": "D:\\Repos\\C# Web\\SIS\\SIS.WebServer\\SIS.WebServer.csproj"
             }

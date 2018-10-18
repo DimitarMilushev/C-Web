@@ -1,4 +1,3 @@
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.Demo.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
@@ -12,12 +11,13 @@ D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\IRunesWebApp.runtimecon
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\IRunesWebApp.runtimeconfig.dev.json
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\IRunesWebApp.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\IRunesWebApp.pdb
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.Demo.pdb
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.csproj.CopyComplete
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\obj\Debug\netcoreapp2.1\IRunesWebApp.pdb
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Services.dll
 D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Services.pdb
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Index.html
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Login.html
-D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Register.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Home\index.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Users\Login.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\Views\Users\Register.html
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.Framework.dll
+D:\Repos\C# Web\SIS\IRunesWebApp\bin\Debug\netcoreapp2.1\SIS.Framework.pdb

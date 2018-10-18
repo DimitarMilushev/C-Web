@@ -18,6 +18,8 @@ namespace SIS.HTTP.Responses
 
         public HttpResponse(HttpResponseStatusCode statusCode)
         {
+            CoreValidator.ThrowIfNull(statusCode, nameof(statusCode));
+
             this.Headers = new HttpHeaderCollection();
             this.Cookies = new HttpCookieCollection();
             this.Content = new byte[0];

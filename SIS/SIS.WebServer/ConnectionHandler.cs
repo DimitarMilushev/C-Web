@@ -1,12 +1,18 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using SIS.HTTP.Common;
 using SIS.HTTP.Cookies;
 using SIS.HTTP.Enums;
+using SIS.HTTP.Exceptions;
 using SIS.HTTP.Requests;
 using SIS.HTTP.Responses;
 using SIS.HTTP.Sessions;
+using SIS.WebServer.Api;
+using SIS.WebServer.Results;
 using SIS.WebServer.Routing;
 
 namespace SIS.WebServer
@@ -14,14 +20,17 @@ namespace SIS.WebServer
     public class ConnectionHandler
     {
         private readonly Socket client;
-        private readonly ServerRoutingTable serverRoutingTable;
+        private readonly IHttpHandler httpHandler;
 
         public ConnectionHandler(
             Socket client,
-            ServerRoutingTable serverRoutingTable)
+            IHttpHandler httpHandler)
         {
+            CoreValidator.ThrowIfNull(client, nameof(client));
+            CoreValidator.ThrowIfNull(httpHandler, nameof(httpHandler));
+
             this.client = client;
-            this.serverRoutingTable = serverRoutingTable;
+            this.httpHandler = httpHandler;
         }
 
         private async Task<IHttpRequest> ReadRequest()
@@ -79,17 +88,6 @@ namespace SIS.WebServer
             }
         }
 
-        private IHttpResponse HandleRequest(IHttpRequest httpRequest)
-        {
-            if(!this.serverRoutingTable.Routes.ContainsKey(httpRequest.RequestMethod)
-                || !this.serverRoutingTable.Routes[httpRequest.RequestMethod].ContainsKey(httpRequest.Path))
-            {
-                return new HttpResponse(HttpResponseStatusCode.NotFound);
-            }
-
-            return this.serverRoutingTable.Routes[httpRequest.RequestMethod][httpRequest.Path].Invoke(httpRequest);
-        }
-
         private async Task PrepareResponse(IHttpResponse httpResponse)
         {
             byte[] byteSegments = httpResponse.GetBytes();
@@ -99,20 +97,31 @@ namespace SIS.WebServer
 
         public async Task ProcessRequestAsync()
         {
-            var httpRequest = await this.ReadRequest();
-
-            if(httpRequest != null)
+            try
             {
-                string sessionId = this.SetRequestSession(httpRequest);
+                var httpRequest = await this.ReadRequest();
 
-                var httpResponse = this.HandleRequest(httpRequest);
+                if (httpRequest != null)
+                {
+                    string sessionId = this.SetRequestSession(httpRequest);
 
-                this.SetResponseSession(httpResponse, sessionId);
+                    var httpResponse = this.httpHandler.Handle(httpRequest);
+
+                    this.SetResponseSession(httpResponse, sessionId);
 
 
-                await this.PrepareResponse(httpResponse);
+                    await this.PrepareResponse(httpResponse);
+                }
             }
+            catch(BadRequestException e)
+            {
+                await this.PrepareResponse(new TextResult(e.Message, HttpResponseStatusCode.BadRequest));
+            }
+            catch(Exception e)
+            {
+                await this.PrepareResponse(new TextResult(e.Message, HttpResponseStatusCode.InternalServerError));
 
+            }
             this.client.Shutdown(SocketShutdown.Both);
         }
     }

@@ -1,9 +1,12 @@
-﻿
-using IRunesWebApp.Controllers;
+﻿using IRunesWebApp.Controllers;
+using SIS.Framework;
+using SIS.Framework.Routers;
 using SIS.HTTP.Enums;
 using SIS.WebServer;
+using SIS.WebServer.Api;
 using SIS.WebServer.Results;
 using SIS.WebServer.Routing;
+using System.Reflection;
 
 namespace IRunesWebApp
 {
@@ -11,34 +14,32 @@ namespace IRunesWebApp
     {
         static void Main(string[] args)
         {
-            ServerRoutingTable serverRoutingTable = new ServerRoutingTable();
-
-            ConfigureRouting(serverRoutingTable);
-
-            Server server = new Server(8000, serverRoutingTable);
-
-            server.Run();
+            var handler = new ControllerRouter();
+            Server server = new Server(8000, handler);
+            var engine = new MvcEngine();
+            engine.Run(server);
+            //MvcEngine.Run(server);
         }
 
-            private static void ConfigureRouting(ServerRoutingTable serverRoutingTable)
+        private static void ConfigureRouting(ServerRoutingTable serverRoutingTable)
         {
             // GET
-            serverRoutingTable.Routes[HttpRequestMethod.Get]["/index"] =
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/home/index"] =
                 request => new RedirectResult("/");
-            serverRoutingTable.Routes[HttpRequestMethod.Get]["/"] =
-                request => new HomeController().Index(request);
-            serverRoutingTable.Routes[HttpRequestMethod.Get]["/login"] =
+            //serverRoutingTable.Routes[HttpRequestMethod.Get]["/"] =
+            //    request => new HomeController().Index(request);
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/users/login"] =
                 request => new UsersController().Login(request);
-            serverRoutingTable.Routes[HttpRequestMethod.Get]["/register"] =
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/users/register"] =
                 request => new UsersController().Register(request);
-//            serverRoutingTable.Routes[HttpRequestMethod.Get]["/all"] =
-//                request => new AlbumsController().All(request);
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/all"] =
+                request => new AlbumsController().All(request);
 
 
             // POST
-            serverRoutingTable.Routes[HttpRequestMethod.Post]["/login"] =
+            serverRoutingTable.Routes[HttpRequestMethod.Post]["/users/login"] =
                 request => new UsersController().PostLogin(request);
-            serverRoutingTable.Routes[HttpRequestMethod.Post]["/register"] =
+            serverRoutingTable.Routes[HttpRequestMethod.Post]["/users/register"] =
                 request => new UsersController().PostRegister(request);
         }
     }

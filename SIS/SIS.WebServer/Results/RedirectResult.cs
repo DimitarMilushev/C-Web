@@ -9,7 +9,7 @@ namespace SIS.WebServer.Results
         public RedirectResult(string location)
             :base(HttpResponseStatusCode.SeeOther)
         {
-            this.Headers.Add(new HttpHeader("Location", location));
+            this.Headers.Add(new HttpHeader(HttpHeader.Location, location));
         }
     }
 }

@@ -7,15 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.HTTP", "SIS.HTTP\SIS.HT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.WebServer", "SIS.WebServer\SIS.WebServer.csproj", "{88B9389C-1B74-4877-995A-FC370DCEE66F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.Demo", "SIS.Demo\SIS.Demo.csproj", "{EA862389-FE3E-40FE-B7F8-0BF91B59540B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SIS.Apps", "SIS.Apps", "{788AD50A-CC49-44BA-A093-1FB2FE765AA8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRunesWebApp", "IRunesWebApp\IRunesWebApp.csproj", "{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeStoreWebApp", "CakeStoreWebApp\CakeStoreWebApp.csproj", "{A93D1F68-BEA0-4F27-9870-5424A9527ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.Framework", "SIS.Framework\SIS.Framework.csproj", "{85B41DD9-8F78-4F45-8552-47D5F41F4251}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,6 @@ Global
 		{88B9389C-1B74-4877-995A-FC370DCEE66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B9389C-1B74-4877-995A-FC370DCEE66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B9389C-1B74-4877-995A-FC370DCEE66F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA862389-FE3E-40FE-B7F8-0BF91B59540B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA862389-FE3E-40FE-B7F8-0BF91B59540B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA862389-FE3E-40FE-B7F8-0BF91B59540B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA862389-FE3E-40FE-B7F8-0BF91B59540B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2FE364E-2057-4FB7-AFFE-FB2E05BDE5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +43,10 @@ Global
 		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D317FA4B-0518-47A7-B6B2-63C8A57FDB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B41DD9-8F78-4F45-8552-47D5F41F4251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B41DD9-8F78-4F45-8552-47D5F41F4251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B41DD9-8F78-4F45-8552-47D5F41F4251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B41DD9-8F78-4F45-8552-47D5F41F4251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

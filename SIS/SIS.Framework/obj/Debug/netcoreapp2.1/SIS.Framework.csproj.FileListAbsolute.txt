@@ -1,0 +1,14 @@
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.AssemblyInfo.cs
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.Framework.deps.json
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.Framework.dll
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.Framework.pdb
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\C# Web\SIS\SIS.Framework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.csproj.CopyComplete
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.dll
+D:\Repos\C# Web\SIS\SIS.Framework\obj\Debug\netcoreapp2.1\SIS.Framework.pdb

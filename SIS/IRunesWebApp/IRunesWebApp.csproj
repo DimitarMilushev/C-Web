@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Services\Services.csproj" />
-    <ProjectReference Include="..\SIS.Demo\SIS.Demo.csproj" />
+    <ProjectReference Include="..\SIS.Framework\SIS.Framework.csproj" />
     <ProjectReference Include="..\SIS.HTTP\SIS.HTTP.csproj" />
     <ProjectReference Include="..\SIS.WebServer\SIS.WebServer.csproj" />
   </ItemGroup>
@@ -23,15 +23,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Views\index.html">
+    <None Update="Views\Home\Index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Views\register.html">
+    <None Update="Views\Users\Register.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Views\login.html">
+    <None Update="Views\Users\Login.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\css\" />
+    <Folder Include="Resources\js\" />
   </ItemGroup>
 
 </Project>
