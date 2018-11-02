@@ -82,12 +82,70 @@ namespace SIS.Framework.Routers
         {
             var actionParamsArray = action.GetParameters();
 
-            ParameterInfo[] mappedActionParameters = new ParameterInfo[actionParamsArray.Length];
+            object[] mappedActionParameters = new ParameterInfo[actionParamsArray.Length];
             for (int i = 0; i < actionParamsArray.Length; i++)
             {
-                //mappin stuff todo
+                var actionParameter = actionParamsArray[i];
+                object mappedActionParam = new object();
+
+                if (actionParameter.ParameterType.IsPrimitive ||
+                    actionParameter.ParameterType == typeof(string))
+                {
+                    mappedActionParam = this.ProcessPrimitiveParameter(actionParameter, request);
+                    if (mappedActionParam == null)
+                        break;
+
+                    mappedActionParameters[i] = mappedActionParam;
+                }
+                else
+                {
+
+                    mappedActionParam = this.ProcessPrimitiveParameter(actionParameter, request);
+                    if (mappedActionParam == null)
+                        break;
+
+                    mappedActionParameters[i] = ProcessBindingModelParameters(actionParameter, request);
+                }
             }
             return mappedActionParameters;
+        }
+
+        private object ProcessBindingModelParameters(ParameterInfo actionParameter, IHttpRequest request)
+        {
+            Type bindingModelType = actionParameter.ParameterType;
+
+            var bindingModelInstance = Activator.CreateInstance(bindingModelType);
+            var bindingModelProperties = bindingModelType.GetProperties();
+
+            foreach (var property in bindingModelProperties)
+            {
+                try
+                {
+                    object value = this.GetParameterFromRequestData(request, property.Name);
+                    property.SetValue(bindingModelInstance, Convert.ChangeType(value, property.PropertyType));
+                }
+                catch
+                {
+                    Console.WriteLine($"The {property.Name} field could not be mapped.");
+                }
+            }
+            return Convert.ChangeType(bindingModelInstance, bindingModelType);
+        }
+
+        private object ProcessPrimitiveParameter(ParameterInfo actionParameter, IHttpRequest request)
+        {
+            object value = this.GetParameterFromRequestData(request, actionParameter.Name);
+            return Convert.ChangeType(value, actionParameter.ParameterType);
+        }
+
+        private object GetParameterFromRequestData(IHttpRequest request, string name)
+        {
+            if (request.QueryData.ContainsKey(name))
+                return request.QueryData[name];
+            if (request.FormData.ContainsKey(name))
+                return request.FormData[name];
+
+            return null;
         }
 
         public IHttpResponse Handle(IHttpRequest request)

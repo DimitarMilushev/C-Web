@@ -29,7 +29,7 @@ namespace SIS.Framework.Controllers.Base
             var fullyQualifiedName = ControllerUtilites
                 .GetViewFullyQualifiedName(controllerName, viewName);
 
-            var view = new View(fullyQualifiedName);
+            var view = new View(fullyQualifiedName, this.Model.Data);
 
             return new ViewResult(view);
         }

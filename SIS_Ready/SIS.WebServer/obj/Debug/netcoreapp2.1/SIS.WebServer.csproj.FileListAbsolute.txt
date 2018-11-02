@@ -1,0 +1,12 @@
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\C# Web\SIS_Ready\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb
