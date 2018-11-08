@@ -1,0 +1,14 @@
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Data.deps.json
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Data.dll
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Data.pdb
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.AssemblyInfo.cs
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.dll
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.pdb
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\obj\Debug\netcoreapp2.1\Chushka.Data.csproj.CopyComplete
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Models.dll
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Models.pdb
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Data.runtimeconfig.json
+D:\Repos\C# Web\SIS_Ready\Chushka.Data\bin\Debug\netcoreapp2.1\Chushka.Data.runtimeconfig.dev.json

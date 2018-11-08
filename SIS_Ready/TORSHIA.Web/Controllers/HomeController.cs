@@ -37,9 +37,9 @@ namespace TORSHIA.Web.Controllers
                 if (i % 5 == 0)
                 {
                     wrapperViewModel.Add(new TaskViewModelWrapper());
-                }
+                    lastAddedWrapper = wrapperViewModel.Last();
 
-                lastAddedWrapper = wrapperViewModel.Last();
+                }
 
                 lastAddedWrapper.TaskViewModels.Add(new TaskViewModel
                 {

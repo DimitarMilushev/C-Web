@@ -1,0 +1,9 @@
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\bin\Debug\netcoreapp2.1\Chushka.Models.deps.json
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\bin\Debug\netcoreapp2.1\Chushka.Models.dll
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\bin\Debug\netcoreapp2.1\Chushka.Models.pdb
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.csprojAssemblyReference.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.AssemblyInfoInputs.cache
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.AssemblyInfo.cs
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.dll
+D:\Repos\C# Web\SIS_Ready\Chushka.Models\obj\Debug\netcoreapp2.1\Chushka.Models.pdb
