@@ -1,0 +1,12 @@
+D:\Repos\Niki.Skeleton\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+D:\Repos\Niki.Skeleton\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\Niki.Skeleton\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\Niki.Skeleton\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\Niki.Skeleton\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\Niki.Skeleton\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb

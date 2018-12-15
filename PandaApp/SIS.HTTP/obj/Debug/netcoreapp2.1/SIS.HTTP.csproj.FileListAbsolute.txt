@@ -1,0 +1,9 @@
+D:\Repos\Niki.Skeleton\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.deps.json
+D:\Repos\Niki.Skeleton\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\Niki.Skeleton\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csprojAssemblyReference.cache
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csproj.CoreCompileInputs.cache
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfoInputs.cache
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.pdb

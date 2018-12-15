@@ -1,0 +1,14 @@
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.deps.json
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csprojAssemblyReference.cache
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfoInputs.cache
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfo.cs
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
