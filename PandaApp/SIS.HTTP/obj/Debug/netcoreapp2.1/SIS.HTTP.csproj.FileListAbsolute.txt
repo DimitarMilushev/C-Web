@@ -7,3 +7,12 @@ D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfoInp
 D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
 D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.dll
 D:\Repos\Niki.Skeleton\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\PandaApp\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.deps.json
+D:\Repos\C# Web\PandaApp\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\PandaApp\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csprojAssemblyReference.cache
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfoInputs.cache
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\PandaApp\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.pdb

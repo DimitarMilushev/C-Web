@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Panda.Data;
 
 namespace Panda.Data.Migrations
 {
-    [DbContext(typeof(PandaContext))]
-    partial class PandaContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(PandaDbContext))]
+    [Migration("20181216110937_Inital")]
+    partial class Inital
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,7 +28,7 @@ namespace Panda.Data.Migrations
 
                     b.Property<string>("Description");
 
-                    b.Property<DateTime>("EstimatedDeliveryDate");
+                    b.Property<DateTime?>("EstimatedDeliveryDate");
 
                     b.Property<int>("RecipientId");
 

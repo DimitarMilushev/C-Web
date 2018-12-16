@@ -17,7 +17,7 @@ namespace Panda.Models
 
         public Status Status { get; set; }
 
-        public DateTime EstimatedDeliveryDate { get; set; }
+        public DateTime? EstimatedDeliveryDate { get; set; }
 
         public int RecipientId { get; set; }
 

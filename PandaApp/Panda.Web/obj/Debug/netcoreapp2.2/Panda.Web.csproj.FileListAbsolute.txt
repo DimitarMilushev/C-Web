@@ -25,3 +25,39 @@ D:\Repos\Niki.Skeleton\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Data.dll
 D:\Repos\Niki.Skeleton\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Models.dll
 D:\Repos\Niki.Skeleton\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Data.pdb
 D:\Repos\Niki.Skeleton\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Models.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\_Layout.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Home\Index.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\wwwroot\bootstrap.min.css
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\wwwroot\reset-css.css
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\wwwroot\style.css
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Web.deps.json
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Web.runtimeconfig.json
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Web.runtimeconfig.dev.json
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Web.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Web.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Data.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Models.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.HTTP.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.MvcFramework.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.WebServer.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Data.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Panda.Models.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.MvcFramework.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.HTTP.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\SIS.WebServer.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.csprojAssemblyReference.cache
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.AssemblyInfoInputs.cache
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.AssemblyInfo.cs
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.csproj.CopyComplete
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.dll
+D:\Repos\C# Web\PandaApp\Panda.Web\obj\Debug\netcoreapp2.2\Panda.Web.pdb
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Users\Login.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Users\Register.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Error.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Home\IndexLoggedIn.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Packages\Details.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Receipts\Index.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Receipts\Details.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Packages\Create.html
+D:\Repos\C# Web\PandaApp\Panda.Web\bin\Debug\netcoreapp2.2\Views\Packages\Pending.html

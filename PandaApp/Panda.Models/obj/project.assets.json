@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Niki.Skeleton\\Panda.Models\\Panda.Models.csproj",
+      "projectUniqueName": "D:\\Repos\\C# Web\\PandaApp\\Panda.Models\\Panda.Models.csproj",
       "projectName": "Panda.Models",
-      "projectPath": "D:\\Repos\\Niki.Skeleton\\Panda.Models\\Panda.Models.csproj",
+      "projectPath": "D:\\Repos\\C# Web\\PandaApp\\Panda.Models\\Panda.Models.csproj",
       "packagesPath": "C:\\Users\\DeadlyCookie\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Niki.Skeleton\\Panda.Models\\obj\\",
+      "outputPath": "D:\\Repos\\C# Web\\PandaApp\\Panda.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12,3 +12,17 @@ D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework
 D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
 D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
 D:\Repos\Niki.Skeleton\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.deps.json
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csprojAssemblyReference.cache
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfoInputs.cache
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfo.cs
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\Repos\C# Web\PandaApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb

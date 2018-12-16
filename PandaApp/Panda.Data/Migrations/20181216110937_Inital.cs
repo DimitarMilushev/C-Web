@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Panda.Data.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Inital : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -31,7 +31,7 @@ namespace Panda.Data.Migrations
                     Weight = table.Column<double>(nullable: false),
                     ShippingAddress = table.Column<string>(nullable: true),
                     Status = table.Column<int>(nullable: false),
-                    EstimatedDeliveryDate = table.Column<DateTime>(nullable: false),
+                    EstimatedDeliveryDate = table.Column<DateTime>(nullable: true),
                     RecipientId = table.Column<int>(nullable: false),
                     RecipientId1 = table.Column<string>(nullable: false)
                 },

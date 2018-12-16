@@ -1,4 +1,5 @@
-﻿using SIS.MvcFramework;
+﻿using Panda.Data;
+using SIS.MvcFramework;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,8 +8,11 @@ namespace Panda.Web.Controllers
 {
     public class BaseController : Controller
     {
-        public BaseController()
+        protected BaseController()
         {
+            this.Db = new PandaDbContext();
         }
+
+        public PandaDbContext Db { get; }
     }
 }

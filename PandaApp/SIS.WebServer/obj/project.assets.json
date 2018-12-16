@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Niki.Skeleton\\SIS.WebServer\\SIS.WebServer.csproj",
+      "projectUniqueName": "D:\\Repos\\C# Web\\PandaApp\\SIS.WebServer\\SIS.WebServer.csproj",
       "projectName": "SIS.WebServer",
-      "projectPath": "D:\\Repos\\Niki.Skeleton\\SIS.WebServer\\SIS.WebServer.csproj",
+      "projectPath": "D:\\Repos\\C# Web\\PandaApp\\SIS.WebServer\\SIS.WebServer.csproj",
       "packagesPath": "C:\\Users\\DeadlyCookie\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Niki.Skeleton\\SIS.WebServer\\obj\\",
+      "outputPath": "D:\\Repos\\C# Web\\PandaApp\\SIS.WebServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Repos\\Niki.Skeleton\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "D:\\Repos\\Niki.Skeleton\\SIS.HTTP\\SIS.HTTP.csproj"
+            "D:\\Repos\\C# Web\\PandaApp\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "D:\\Repos\\C# Web\\PandaApp\\SIS.HTTP\\SIS.HTTP.csproj"
             }
           }
         }

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Niki.Skeleton\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectUniqueName": "D:\\Repos\\C# Web\\PandaApp\\SIS.HTTP\\SIS.HTTP.csproj",
       "projectName": "SIS.HTTP",
-      "projectPath": "D:\\Repos\\Niki.Skeleton\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectPath": "D:\\Repos\\C# Web\\PandaApp\\SIS.HTTP\\SIS.HTTP.csproj",
       "packagesPath": "C:\\Users\\DeadlyCookie\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Niki.Skeleton\\SIS.HTTP\\obj\\",
+      "outputPath": "D:\\Repos\\C# Web\\PandaApp\\SIS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

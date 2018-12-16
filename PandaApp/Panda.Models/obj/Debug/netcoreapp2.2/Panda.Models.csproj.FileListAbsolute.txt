@@ -7,3 +7,12 @@ D:\Repos\Niki.Skeleton\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.Assembl
 D:\Repos\Niki.Skeleton\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.AssemblyInfo.cs
 D:\Repos\Niki.Skeleton\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.dll
 D:\Repos\Niki.Skeleton\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.pdb
+D:\Repos\C# Web\PandaApp\Panda.Models\bin\Debug\netcoreapp2.2\Panda.Models.deps.json
+D:\Repos\C# Web\PandaApp\Panda.Models\bin\Debug\netcoreapp2.2\Panda.Models.dll
+D:\Repos\C# Web\PandaApp\Panda.Models\bin\Debug\netcoreapp2.2\Panda.Models.pdb
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.csprojAssemblyReference.cache
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.csproj.CoreCompileInputs.cache
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.AssemblyInfoInputs.cache
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.AssemblyInfo.cs
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.dll
+D:\Repos\C# Web\PandaApp\Panda.Models\obj\Debug\netcoreapp2.2\Panda.Models.pdb

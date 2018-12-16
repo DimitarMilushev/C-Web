@@ -3545,11 +3545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Niki.Skeleton\\Panda.Data\\Panda.Data.csproj",
+      "projectUniqueName": "D:\\Repos\\C# Web\\PandaApp\\Panda.Data\\Panda.Data.csproj",
       "projectName": "Panda.Data",
-      "projectPath": "D:\\Repos\\Niki.Skeleton\\Panda.Data\\Panda.Data.csproj",
+      "projectPath": "D:\\Repos\\C# Web\\PandaApp\\Panda.Data\\Panda.Data.csproj",
       "packagesPath": "C:\\Users\\DeadlyCookie\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Niki.Skeleton\\Panda.Data\\obj\\",
+      "outputPath": "D:\\Repos\\C# Web\\PandaApp\\Panda.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3568,8 +3568,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Repos\\Niki.Skeleton\\Panda.Models\\Panda.Models.csproj": {
-              "projectPath": "D:\\Repos\\Niki.Skeleton\\Panda.Models\\Panda.Models.csproj"
+            "D:\\Repos\\C# Web\\PandaApp\\Panda.Models\\Panda.Models.csproj": {
+              "projectPath": "D:\\Repos\\C# Web\\PandaApp\\Panda.Models\\Panda.Models.csproj"
             }
           }
         }
