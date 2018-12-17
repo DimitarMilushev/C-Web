@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Panda.Data.Migrations
 {
-    public partial class Inital : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -32,18 +32,17 @@ namespace Panda.Data.Migrations
                     ShippingAddress = table.Column<string>(nullable: true),
                     Status = table.Column<int>(nullable: false),
                     EstimatedDeliveryDate = table.Column<DateTime>(nullable: true),
-                    RecipientId = table.Column<int>(nullable: false),
-                    RecipientId1 = table.Column<string>(nullable: false)
+                    RecipientId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Packages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Packages_Users_RecipientId1",
-                        column: x => x.RecipientId1,
+                        name: "FK_Packages_Users_RecipientId",
+                        column: x => x.RecipientId,
                         principalTable: "Users",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -53,42 +52,40 @@ namespace Panda.Data.Migrations
                     Id = table.Column<string>(nullable: false),
                     Fee = table.Column<decimal>(nullable: false),
                     IssuedOn = table.Column<DateTime>(nullable: false),
-                    RecipientId = table.Column<int>(nullable: false),
-                    RecipientId1 = table.Column<string>(nullable: true),
-                    PackageId = table.Column<int>(nullable: false),
-                    PackageId1 = table.Column<string>(nullable: true)
+                    RecipientId = table.Column<string>(nullable: true),
+                    PackageId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Receipts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Receipts_Packages_PackageId1",
-                        column: x => x.PackageId1,
+                        name: "FK_Receipts_Packages_PackageId",
+                        column: x => x.PackageId,
                         principalTable: "Packages",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Receipts_Users_RecipientId1",
-                        column: x => x.RecipientId1,
+                        name: "FK_Receipts_Users_RecipientId",
+                        column: x => x.RecipientId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Packages_RecipientId1",
+                name: "IX_Packages_RecipientId",
                 table: "Packages",
-                column: "RecipientId1");
+                column: "RecipientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Receipts_PackageId1",
+                name: "IX_Receipts_PackageId",
                 table: "Receipts",
-                column: "PackageId1");
+                column: "PackageId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Receipts_RecipientId1",
+                name: "IX_Receipts_RecipientId",
                 table: "Receipts",
-                column: "RecipientId1");
+                column: "RecipientId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

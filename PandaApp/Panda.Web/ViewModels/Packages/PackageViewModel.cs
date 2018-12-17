@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Panda.Models.Enums;
+using System;
 
 namespace Panda.Web.ViewModels.Packages
 {
@@ -10,12 +9,14 @@ namespace Panda.Web.ViewModels.Packages
 
         public string ShippingAddress { get; set; }
 
-        public string Status { get; set; }
+        public Status Status { get; set; } = Status.Pending;
 
         public double Weight { get; set; }
 
         public string Recipient { get; set; }
 
         public string Description { get; set; }
+
+        public DateTime? EstimatedDeliveryDate { get; set; } = null;
     }
 }

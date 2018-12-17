@@ -27,7 +27,6 @@
                 return this.View(model);
                 { var number = i + 1; }
                 { var package = Model.Packages.ToList()[i]; }
-                @if(package.Status == "Pending")
                 <tr class="row">
                     <th scope="row" class="col-lg-5 d-flex justify-content-center">
                         <h5>@receipt.Id</h5>
@@ -37,7 +36,6 @@
                     <td class="col-lg-2 d-flex justify-content-center"><h5>@package.Weight KG</h5></td>
                     <td class="col-lg-2 d-flex justify-content-center"><h5>@package.ShippingAddress KG</h5></td>
                     <td class="col-lg-2 d-flex justify-content-center"><h5>@package.Recipient KG</h5></td>
-
                     <td class="col-lg-1 d-flex justify-content-center">
                         <a href="/Receipts/Details?id=@receipt.Id" class="btn bg-panda text-white">Details</a>
                     </td>

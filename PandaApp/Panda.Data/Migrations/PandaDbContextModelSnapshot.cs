@@ -28,10 +28,7 @@ namespace Panda.Data.Migrations
 
                     b.Property<DateTime?>("EstimatedDeliveryDate");
 
-                    b.Property<int>("RecipientId");
-
-                    b.Property<string>("RecipientId1")
-                        .IsRequired();
+                    b.Property<string>("RecipientId");
 
                     b.Property<string>("ShippingAddress");
 
@@ -41,7 +38,7 @@ namespace Panda.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RecipientId1");
+                    b.HasIndex("RecipientId");
 
                     b.ToTable("Packages");
                 });
@@ -55,19 +52,15 @@ namespace Panda.Data.Migrations
 
                     b.Property<DateTime>("IssuedOn");
 
-                    b.Property<int>("PackageId");
+                    b.Property<string>("PackageId");
 
-                    b.Property<string>("PackageId1");
-
-                    b.Property<int>("RecipientId");
-
-                    b.Property<string>("RecipientId1");
+                    b.Property<string>("RecipientId");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PackageId1");
+                    b.HasIndex("PackageId");
 
-                    b.HasIndex("RecipientId1");
+                    b.HasIndex("RecipientId");
 
                     b.ToTable("Receipts");
                 });
@@ -94,19 +87,18 @@ namespace Panda.Data.Migrations
                 {
                     b.HasOne("Panda.Models.User", "Recipient")
                         .WithMany("Packages")
-                        .HasForeignKey("RecipientId1")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("RecipientId");
                 });
 
             modelBuilder.Entity("Panda.Models.Receipt", b =>
                 {
                     b.HasOne("Panda.Models.Package", "Package")
                         .WithMany()
-                        .HasForeignKey("PackageId1");
+                        .HasForeignKey("PackageId");
 
                     b.HasOne("Panda.Models.User", "Recipient")
                         .WithMany()
-                        .HasForeignKey("RecipientId1");
+                        .HasForeignKey("RecipientId");
                 });
 #pragma warning restore 612, 618
         }

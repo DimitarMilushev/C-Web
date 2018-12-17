@@ -6,7 +6,7 @@ namespace Panda.Web.ViewModels.Packages
 {
     public class PackageDetailsViewModel
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string Address { get; set; }
 

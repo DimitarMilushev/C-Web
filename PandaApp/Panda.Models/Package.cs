@@ -19,7 +19,7 @@ namespace Panda.Models
 
         public DateTime? EstimatedDeliveryDate { get; set; }
 
-        public int RecipientId { get; set; }
+        public string RecipientId { get; set; }
 
         public User Recipient { get; set; }
     }
